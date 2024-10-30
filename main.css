@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-bottom: 40px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, input, textarea {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(0, 88, 66);
+    text-decoration: none;
+}
+
+
+
+header {
+    max-width: 1200px;
+    border-bottom: 1 px solid #245;
+    margin: 0px auto;
+    padding: 6px 10px 6px 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+}
+
+div {
+    max-width: 1200px;
+    min-width: 1200px;
+}
+
+social-icon {
+    max-width: 200px;
+    max-height: 200 px;
+}
